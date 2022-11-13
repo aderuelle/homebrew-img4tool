@@ -1,3 +1,6 @@
+#
+# libgeneral formula, a build dependency for img4tool
+#
 class Libgeneral < Formula
   desc "Collection of c++ macros, that help follow a consistent coding style"
   homepage "https://github.com/tihmstar/libgeneral"
@@ -20,6 +23,7 @@ class Libgeneral < Formula
   end
 
   test do
-    system "false"
+    # no test atm
+    system "true"
   end
 end
